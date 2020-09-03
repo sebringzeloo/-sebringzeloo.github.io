@@ -1,0 +1,40 @@
+<section class="about-info-area section-gap">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 info-left">
+							<img class="img-fluid" src="img/about/info-img.jpg" alt="">
+						</div>
+						<div class="col-lg-6 info-right">
+							<h6>About Us</h6>
+							<h1>Who We Are?</h1>
+							<p>
+								Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</section>
+.about-info-area .info-left img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .about-info-area .info-left {
+    margin-bottom: 30px;
+  }
+}
+
+.about-info-area .info-right h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.about-info-area .info-right h1 {
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+.about-info-area .info-right p {
+  max-width: 450px;
+}
